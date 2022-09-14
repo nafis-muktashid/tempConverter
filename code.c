@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main()
 {
@@ -7,6 +6,8 @@ int main()
     char x;
     printf("1. Celcius to Farenhite.\n");
     printf("2. Farenhite to Celcius.\n");
+    printf("3. Celcius to Kelvin. \n");
+    printf("4. Farenhite to Kelvin. \n");
     printf("Enter your choice    :    ");
     scanf("%c", &x);
     
