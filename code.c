@@ -54,7 +54,7 @@ int main()
         c = k - 273.15 ; 
         printf("%f\n" , c);
     }
-    /*
+    
     if (x == '6')
     {
         printf("Enter the temp   :   ");
@@ -62,7 +62,7 @@ int main()
         f = ( ( 9 * ( k - 273.15 ) / 5 ) + 32 );
         printf("%f\n" , f );  
 
-    } */
+    } 
     
     return 0;
 }
