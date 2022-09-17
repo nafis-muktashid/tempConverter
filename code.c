@@ -4,7 +4,7 @@
 
 int main()
 {
-    float c, f, k;
+    float c, f, k, F;
     char x;
     printf("1. Celcius to Farenhite.\n");
     printf("2. Celcius to Kelvin. \n");
@@ -59,8 +59,8 @@ int main()
     {
         printf("Enter the temp   :   ");
         scanf("%f" , k );
-        f = ( ( 9 * ( k - 273.15 ) / 5 ) + 32 );
-        printf("%f\n" , f );  
+        F = (( ( 9 * ( k - 273.15 )) / 5 ) + 32 );
+        printf("%f\n" , F );  
 
     } 
     
