@@ -58,11 +58,11 @@ int main()
     if (x == '6')
     {
         printf("Enter the temp   :   ");
-        scanf("%f" , k );
+        scanf("%f" , &k );
         f = ( ( 9 * ( k - 273.15 ) / 5 ) + 32 );
-        printf("The temp in Farenhite is : %f\n\n" , f );  
+        printf("The temp in Farenhite is : %f\n\n" , f ); 
 
     } 
-    
+
     return 0;
 }
