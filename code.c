@@ -4,7 +4,7 @@
 
 int main()
 {
-    float c, f, k, F;
+    float c, f, k;
     char x;
     printf("1. Celcius to Farenhite.\n");
     printf("2. Celcius to Kelvin. \n");
@@ -20,7 +20,7 @@ int main()
         printf("Enter the temp at Celcius   :   ");
         scanf("%f", &c);
         f = ( 32 + ( ( 9 * c ) / 5 ) ) ;
-        printf("%f\n", f);
+        printf("The temp in Farenhite is : %f\n\n", f);
     }
 
     if (x=='2')
@@ -28,7 +28,7 @@ int main()
         printf("Enter the temp at Celcius    :   ");
         scanf("%f", &c);
         k = ( c + 273.15 );
-        printf("%f\n" ,k);
+        printf("The temp in Kelvin is : %f\n\n" ,k);
     }
 
     if (x=='3')
@@ -36,15 +36,15 @@ int main()
         printf("Enter the temp at Farenhite   :   ");
         scanf("%f", &f);
         c= (  ( 5 * ( f - 32 ) / 9 ) );
-        printf("%f\n", c);
+        printf("The temp in Celcius is : %f\n\n", c);
     }
 
     if (x == '4')
     {
         printf("Enter the temp at Farenhite   :   ");
         scanf("%f", &f);
-        f = ((  5  * (f - 32 ) / 9 ) + 273.15 );
-        printf("%f\n", f);
+        f = ( (  5  * (f - 32 ) / 9 ) + 273.15 );
+        printf("The temp in Kelvin is : %f\n\n", f);
     }
 
     if (x == '5')
@@ -52,15 +52,15 @@ int main()
         printf("Enter the temp at Kelvin   :   ");
         scanf("%f", &k);
         c = k - 273.15 ; 
-        printf("%f\n" , c);
+        printf("The temp in Celcius is : %f\n\n" , c);
     }
     
     if (x == '6')
     {
         printf("Enter the temp   :   ");
         scanf("%f" , k );
-        F = (( ( 9 * ( k - 273.15 )) / 5 ) + 32 );
-        printf("%f\n" , F );  
+        f = ( ( 9 * ( k - 273.15 ) / 5 ) + 32 );
+        printf("The temp in Farenhite is : %f\n\n" , f );  
 
     } 
     
