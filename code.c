@@ -4,12 +4,12 @@ int main()
 {
     float c, f, k;
     char x;
-    printf("1. Celcius to Farenhite.\n");
-    printf("2. Celcius to Kelvin. \n");
-    printf("3. Farenhite to Celcius.\n");
-    printf("4. Farenhite to Kelvin. \n");
-    printf("5. Kelvin to Celcius, \n");
-    printf("6. Kelvin to Farenhite. \n");
+    printf("1. C to F.\n");
+    printf("2. C to K. \n");
+    printf("3. F to.\n");
+    printf("4. F to K. \n");
+    printf("5. K to C. \n");
+    printf("6. K to F. \n\n");
     printf("Enter your choice    :    ");
     scanf("%c", &x);
     
@@ -55,7 +55,7 @@ int main()
     
     if (x == '6')
     {
-        printf("Enter the temp   :   ");
+        printf("Enter the temp at Kelvin   :   ");
         scanf("%f" , &k );
         f = ( ( 9 * ( k - 273.15 ) / 5 ) + 32 );
         printf("The temp in Farenhite is : %f\n\n" , f ); 
